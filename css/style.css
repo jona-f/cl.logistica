@@ -15,10 +15,15 @@ a{
     margin-left: 20px;
 }
 
+.rede img:hover{
+    transform: scale(1.5);
+}
+
 .rede img {
     height: 50px;
     width: 50px;
     padding: 5px;
+    transition: 2s;
 }
 
 /* texto base operativa */
@@ -36,6 +41,10 @@ a{
     width: 150px;
     height: 150px;
     border: solid 3px skyblue;
+    transition: 2s;
+}
+.logo:hover{
+    transform: rotateY(180deg);
 }
 
 .headnav nav ul {
@@ -74,21 +83,38 @@ header nav ul {
 header nav ul li {
     padding: 10px;
     list-style: none;
+    transition: 2s;
+}
+header nav ul li:hover{
+    text-decoration: overline;
+    color: skyblue;
 }
 
 .cl h1{
     font-family: 'Times New Roman', Times, serif;
     font-size:50px;
     color: skyblue;
-    text-align: center;    
+    text-align: center;
+    transition: 2s;    
 }
 
+.cl h1:hover{
+    transform: scale(1.2);
+}
 
 /* --------------Main-------------*/
 
 .imagenes{
     display: flex;
     justify-content: center;
+}
+
+.imagenes div{
+    transition: 2s;
+}
+
+.imagenes div:hover{
+    transform: scale(1.1);
 }
 
 .imagenes h3{
@@ -422,6 +448,11 @@ h5{
     width: 130px;
     height: 130px;
     padding: 30px;
+    transition: 2s;
+}
+
+.redes a img:hover{
+    transform: scale(1.8);
 }
 
             /* contacto css */
