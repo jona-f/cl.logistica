@@ -6,25 +6,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cl Logistica</title>
     <link rel="icon" href="../img/Logo.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 </head>
                             <!-- HEADER -->
 <body>
     <header class="headnav">
-        <nav>
-            <!-- LOGO -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <a href="../index.html"><img class="logo" src="../img/Logo.png" alt="Logo"></a>
-            <ul>
-                <!-- Barra de Navegacion -->
-                <li><i class="fa fa-home" aria-hidden="true"></i><a href="../index.html">Inicio</a></li>
-                <li><i class="fa fa-map-marker" aria-hidden="true"></i><a href="../pages/cobertura.html">Cobertura</a></li>
-                <li><i class="fa fa-comment" aria-hidden="true"></i><a href="../pages/servicios.html">Servicios</a></li>
-                <li><i class="fa fa-car" aria-hidden="true"></i><a href="../pages/unidades.html">Unidades</a></li>
-                <li><i class="fa fa-user" aria-hidden="true"></i><a href="../pages/contacto.html">Contacto</a></li>
-            </ul>
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html">Cl Logistica</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="./cobertura.html">Cobertura</a>
+                        <a class="nav-link" href="./servicios.html">Servicios</a>
+                        <a class="nav-link" href="./unidades.html">Unidades</a>
+                        <a class="nav-link" href="./contacto.html">Contacto</a>
+                    </div>
+                </div>
+            </div>
         </nav>
+        <!-- <nav>
+                
+                <a href="./index.html"><img class="logo" src="./img/Logo.png" alt="Logo"></a>
+                    <ul>
+                        
+                        <li><i class="fa fa-home" aria-hidden="true"></i><a href="./index.html">Inicio</a></li>
+                        <li><i class="fa fa-map-marker" aria-hidden="true"></i><a href="./pages/cobertura.html">Cobertura</a></li>
+                        <li><i class="fa fa-comment" aria-hidden="true"></i><a href="./pages/servicios.html">Servicios</a></li>
+                        <li><i class="fa fa-car" aria-hidden="true"></i><a href="./pages/unidades.html">Unidades</a></li>
+                        <li><i class="fa fa-user" aria-hidden="true"></i><a href="./pages/contacto.html">Contacto</a></li>
+                    </ul>
+            </nav> -->
     </header>
+
                             <!-- MAIN -->
     <main class="grid">
         <!-- Titulo -->
@@ -68,5 +88,6 @@
             </div>
             <h5>Copyright - Todos los derechos reservados</h5>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
