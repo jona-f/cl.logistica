@@ -1,24 +1,29 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cl Logistica</title>
     <link rel="icon" href="../img/Logo.png">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 </head>
-                            <!-- HEADER -->
+<!-- HEADER -->
+
 <body>
     <header class="headnav">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <a href="../index.html"><img class="logo" src="../img/Logo.png" alt="Logo"></a>
             <div class="container-fluid">
                 <a class="navbar-brand" href="../index.html">Cl Logistica</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-                    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
@@ -45,7 +50,7 @@
             </nav> -->
     </header>
 
-                            <!-- MAIN -->
+    <!-- MAIN -->
     <main class="grid">
         <!-- Titulo -->
         <section class="titcobertura texto-1">
@@ -53,41 +58,87 @@
         </section>
         <!-- Imagenes -->
 
-        <section class="zonas img-1">
-            <img src="../img/zonas.jpg" alt="zonas">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active justify-content-center">
+                    <img src="../img/zonas.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item justify-content-center">
+                    <img src="../img/rosario-2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <!--<div class="carousel-item">
+                    <img src="..." class="d-block w-100" alt="...">
+                </div>-->
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+    <div class="container">
+
+        <div class="row">
+            <div class="col-4">
+                <img src="../img/elentrega.jpg" class="img-fluid" alt="">
+            </div>
+            <div class="col-4 texto-2 llegamos">
+                <p>LLegamos a vos Rapido y Seguro</p>
+            </div>
+            <div class="col-4">
+                <img src="../img/ellaentrega.jpg" class="img-fluid" alt="">
+            </div>
+        <div>
+
+
+
+
+
+
+        <!--<section class="muchacho img-2">
+            <img src="../img/elentrega.jpg" alt="El entrega">
         </section>
 
-            <section class="muchacho img-2">
-                    <img src="../img/elentrega.jpg" alt="El entrega">
-            </section>
-
-            <!-- Texto -->
         <section class="llegamos texto-2">
             <p>LLegamos a vos Rapido y Seguro</p>
-    </section>
+        </section>
 
-                    <section class="muchacha img-3">
-                        <img src="../img/ellaentrega.jpg" alt="Ella entrega">
-                    </section>
+        <section class="muchacha img-3">
+            <img src="../img/ellaentrega.jpg" alt="Ella entrega">
+        </section>-->
+    </div>
 
     </main>
 
-                            <!-- FOOTER -->
+    <!-- FOOTER -->
     <footer class="texto">
 
         <p>
             Base Operativa: Honduras 555
         </p>
 
-    <div class="mapa">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1639.02595143797!2d-58.234843927970346!3d-34.754285343442604!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a32f201a8c8d39%3A0x296479cd273c338b!2sHonduras%205550%2C%20Ezpeleta%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1656514602795!5m2!1ses-419!2sar" width="300" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
-            <div class="rede">
-                <a href="https://facebook.com"><img src="../img/facebook.png" alt="Facebook"></a>
-                <a href="https://linktr.ee/cl.logistica"><img src="../img/whatsapp.png" href="" alt="Whatsapp"></a>
-                <a href="https://instagram.com/cl.logistica"><img src="../img/instagram.png" alt="Instagram"></a>
-            </div>
-            <h5>Copyright - Todos los derechos reservados</h5>
+        <div class="mapa">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1639.02595143797!2d-58.234843927970346!3d-34.754285343442604!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a32f201a8c8d39%3A0x296479cd273c338b!2sHonduras%205550%2C%20Ezpeleta%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1656514602795!5m2!1ses-419!2sar"
+                width="300" height="350" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="rede">
+            <a href="https://facebook.com"><img src="../img/facebook.png" alt="Facebook"></a>
+            <a href="https://linktr.ee/cl.logistica"><img src="../img/whatsapp.png" href="" alt="Whatsapp"></a>
+            <a href="https://instagram.com/cl.logistica"><img src="../img/instagram.png" alt="Instagram"></a>
+        </div>
+        <h5>Copyright - Todos los derechos reservados</h5>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
