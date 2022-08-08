@@ -1,609 +1,80 @@
-*{
-    padding: 0%;
-    margin: 0%;
-    box-sizing: border-box;
-}
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box; }
 
-a{
-    text-decoration: none;
-}
-
-/* los iconos de redes */
+/* --- Icn Redes ---*/
 .rede {
-    display: flex;
-    flex-direction: row;
-    margin-left: 20px;
-}
-
-.rede img:hover{
-    transform: scale(1.5);
-}
+  display: flex;
+  flex-direction: row;
+  margin-left: 20px;
+  transition: 2s; }
+  .rede:hover {
+    transform: scale(1.5); }
 
 .rede img {
-    height: 50px;
-    width: 50px;
-    padding: 5px;
-    transition: 2s;
-}
+  height: 50px;
+  width: 50px;
+  padding: 5px; }
 
-/* texto base operativa */
-.texto p {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
-    color: cadetblue;
-    text-align: center;
-}
-
-            /*  ------------------------------- Index Css ------------------------- */
-
-/* -----------HEADER------------*/
+/* ---LOGO --- */
 .logo {
-    width: 150px;
-    height: 150px;
-    border: solid 3px skyblue;
-    transition: 2s;
-}
-.logo:hover{
-    transform: rotateY(180deg);
-}
+  width: 150px;
+  height: 150px;
+  border: solid 3px skyblue;
+  transition: 2s; }
+  .logo:hover {
+    transform: rotateY(180deg); }
 
-/*.headnav nav ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-}*/
+.carousel-inner {
+  padding: 10px; }
 
-/*.titulo ul li{
+.imagenes {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px; }
+  .imagenes h3 {
     font-family: 'Times New Roman', Times, serif;
-    font-size:50px;
-    color: sienna;
-    list-style: none;
-    padding: 3px;
-}
-
-.titulo { 
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5) , rgba(0, 0, 0, 0.5)), url(../img/entrega.jpg);
-    height: 500px;
-    background-position: center;
-    max-width: 100%;
-    background-repeat: no-repeat;
-    border: solid 3px skyblue;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-size: cover;
-    background-attachment: fixed;
-}
-
-header nav ul {
-    font-size:35px ;
-    margin: 4px;
-    font-family:'Times New Roman', Times, serif;
-}
-header nav ul li {
-    padding: 10px;
-    list-style: none;
-    transition: 2s;
-}
-header nav ul li:hover{
-    text-decoration: overline;
+    font-size: 25px;
     color: skyblue;
-}
+    text-align: center; }
+  .imagenes div {
+    transition: 2s; }
+    .imagenes div:hover {
+      transform: scale(1.1); }
+    .imagenes div img {
+      width: 400px;
+      height: 400px;
+      border: 5px;
+      margin: 5px;
+      margin-left: 15px;
+      border: solid 3px skyblue; }
 
-.cl h1{
-    font-family: 'Times New Roman', Times, serif;
-    font-size:50px;
-    color: skyblue;
-    text-align: center;
-    transition: 2s;    
-}
-
-.cl h1:hover{
-    transform: scale(1.2);
-}*/
-
-/* --------------Main-------------*/
-.carousel-inner{
-    padding: 10px;
-}
-
-.imagenes{
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-}
-
-.imagenes div{
-    transition: 2s;
-}
-
-.imagenes div:hover{
-    transform: scale(1.1);
-}
-
-.imagenes h3{
-    font-family: 'Times New Roman', Times, serif;
-    font-size:25px;
-    color: skyblue;
-    text-align: center;
-}
-
-
-.imagenes img{
-    width: 400px;
-    height: 400px;
-    border: 5px;
-    margin: 5px;
-    margin-left: 15px;
-    border: solid 3px skyblue;
-}
-
-.novedades{
-    display: flex;
-    justify-content: space-around;
-}
-
-.novedades img{
+.novedades {
+  display: flex;
+  justify-content: space-around; }
+  .novedades img {
     width: 600px;
     height: 600px;
-    margin: 15px;
-}
+    margin: 15px; }
 
+footer p {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 10px;
+  margin-left: 20px; }
 
-
-
-/* ----------------Footer-------------*/
-
-footer p{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 10px;
-    margin-left: 20px;
-}
-.mapa{
-    margin-left: 20px;
-}
-
-
-h5{
-    text-align: center;
-    font-size: 20px;
-}
-
-
-            /*  ------------------------------- Index Css ------------------------- */
-
-            /* Cobertura Css */
-
-                                            /* GRILLAS */
-
-#carouselExampleControls{
-    margin: 10px;
-    width: 900px;
-}
-
-
-
-/*.grid {
-    display: grid;
-    margin-top: 50px;
-    width: 100%;
-    gap: 15px;
-    grid-template-columns: repeat(3,1fr);
-    grid-auto-flow: 250px;
-}
-
-.grid div img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.texto-1 {
-    grid-column-start: span 3;
-}
-
-.img-1 {
-    grid-column-start: span 3;
-    grid-row: 2/4;
-    align-items: center;
-}
-
-.img-2 {
-    grid-column: 1/2;
-    grid-row: 4/5;
-}
-
-.texto-2 {
-    grid-column: 2/3;
-    grid-row: 4/5;
-}
-
-.img-3 {
-    grid-column: 3/4;
-    grid-row: 4/5;
-}*/
-
-/* titulo */
-
-.titcobertura {
-    font-family: 'Times New Roman', Times, serif;
-    font-size:50px;
-    color: skyblue;
-    text-align: center;
-}
-
-/* imagenes */
-
-
-.zonas img {
-    width: 100%;
-    height: 100%;
-    border: solid 3px skyblue;
-    margin-top: 20px;
-}
-
-.muchacho img {
-    width: 100%;
-    height: 100%;
-    border: solid 3px skyblue;
-    margin: 5px;
-}
-.muchacha img {
-    width: 100%;
-    height: 100%;
-    border: solid 3px skyblue;
-    margin: 5px;
-}
-
-/* mapa */
+.texto p {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  color: cadetblue;
+  text-align: center; }
 
 .mapa {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 10px;
-}
-
-/* texto pie de foto */
-
-.llegamos p {
-    font-family: 'Times New Roman', Times, serif;
-    font-size:40px;
-    color: skyblue;
-    margin-top: 50%;
-    text-align: center;
-}
-
-            /* Cobertura Css */
-
-            /* SERVICIOS CSS*/
-
-    /* titulo */
-
-.titservicios h1 {
-    font-family: 'Times New Roman', Times, serif;
-    font-size:50px;
-    color: skyblue;
-    text-align: center;
-}
-
-/* imagenes */
-
-.cargando {
-    display: flex;
-    justify-content: center;
-}
-
-.cargando img {
-    width: 800px;
-    height: 100%;
-    border: solid 3px skyblue;
-    margin-top: 20px;
-}
-
-/*.tarjetas {
-    display: flex;
-    justify-content: space-around;
-}*/
-
-.card{
-    border: solid 3px skyblue;
-    margin: 5px;
-}
-
-/*.seguridad img {
-    width: 400px;
-    height: 100%;
-    border: solid 3px skyblue;
-    margin: 5px;
-}
-
-.puerta img {
-    width: 400px;
-    height: 100%;
-    border: solid 3px skyblue;
-    margin: 5px;
-}*/
-
-/* Titulos h3 */
-
-.card-text{
-    font-family: 'Times New Roman', Times, serif;
-    font-size:25px;
-    color: skyblue;
-    text-align: center;
-}
-
-/*.seguridad h3 {
-    font-family: 'Times New Roman', Times, serif;
-    font-size:25px;
-    color: skyblue;
-    text-align: center;
-}
-
-.puerta h3 {
-    font-family: 'Times New Roman', Times, serif;
-    font-size:25px;
-    color: skyblue;
-    text-align: center;
-}*/
-
-            /* Servicios CSS */
-
-            /* Unidades CSS */
-
-/* Titulo */
-
-.titunidades h1 {
-    font-family: 'Times New Roman', Times, serif;
-    font-size:50px;
-    color: skyblue;
-    text-align: center;
-}
-
-/* imagenes */
-
-.carga {
-    display: flex;
-    justify-content: center;
-}
-
-.carga img {
-    width: 100%;
-    height: 100%;
-    border: solid 3px skyblue;
-    margin-top: 20px;
-}
-
-.primero {
-    display: flex;
-    justify-content: space-between;
-    margin: 20px;
-}
-
-.unidad img {
-    width: 350px;
-    height: 100%;
-    border: solid 3px skyblue;
-    margin: 5px;
-}
-
-.unidades img {
-    width: 350px;
-    height: 100%;
-    border: solid 3px skyblue;
-    margin: 5px;
-}
-
-.despacho {
-    display: flex;
-    justify-content: center;
-}
-
-.despacho img {
-    width: 600px;
-    height: 100%;
-    border: solid 3px skyblue;
-    margin: 5px;
-}
-
-/* Lista */
-
-.utilitarias ul li {
-    font-family: 'Times New Roman', Times, serif;
-    font-size:25px;
-    color: skyblue;
-    text-align: center;
-}
-
-            /* Unidades Css */
-
-            /* Contacto Css */
-
-/* Titulo */ 
-
-.nosotros h1 {
-    font-family: 'Times New Roman', Times, serif;
-    font-size:50px;
-    color: skyblue;
-    text-align: center;
-}
-
-/*formulario*/
-
-.mb-3{
-    text-align: center;
-    width: 600px;
-    margin-left: 1rem;
-}
-
-/* Imagenes */
-
-.break {
-    display: flex;
-    justify-content: center;
-}
-
-.break img {
-    width: 100%;
-    height: 100%;
-    border: solid 3px skyblue;
-    margin-top: 20px;
-}
-
-.footimagenes {
-    display: flex;
-    justify-content: space-around;
-}
-
-.yendo img {
-    width: 350px;
-    height: 100%;
-    border: solid 3px skyblue;
-    margin: 5px;
-}
-
-.pedido img {
-    width: 350px;
-    height: 100%;
-    border: solid 3px skyblue;
-    margin: 5px;
-}
-
-.redes {
-    display: flex;
-    justify-content: center;
-}
-
-.redes a img {
-    width: 130px;
-    height: 130px;
-    padding: 30px;
-    transition: 2s;
-}
-
-.redes a img:hover{
-    transform: scale(1.8);
-}
-
-            /* contacto css */
-
-
-            /* MEDIA Queries */
-
-            /* INDEX */
-
-    /*header nav*/
-
-    /*@media screen and (max-width:1050px) {
-        .headnav nav{
-            flex-direction: column;
-        }
-    }
-
-    @media screen and (max-width:1050px) {
-        .headnav nav ul{
-            flex-direction: column;
-            text-align: center;
-        }
-    }
-
-    @media screen and (max-width:450px) {
-        .titulo ul{
-            text-align: center;
-        }
-    }*/
-
-    @media screen and (max-width:1050px) {
-        .imagenes{
-            flex-direction: column;
-            align-items: center;
-        }
-    }
-    /* Imagenes */
-
-    @media screen and (max-width:1050px) {
-        .novedades{
-            flex-direction: column;
-            align-items: center;
-        }
-    }
-
-    /* iconos redes */
-
-    @media screen and (max-width:700px) {
-        .rede{
-            justify-content: center;
-        }
-    }
-
-/* SERVICIOS */
-
-    @media screen and (max-width:800px) {
-        .cargando{
-            flex-direction: column;
-        }
-    }
-
-
-/* UNIDADES */
-
-    @media screen and (max-width:855px) {
-        .carga{
-            flex-direction: column;
-            align-items: center;
-        }
-    }
-
-    @media screen and (max-width:925px) {
-        .primero{
-            flex-direction: column;
-            align-items: center;
-        }
-    }
-
-    @media screen and (max-width:925px) {
-        .utilitarias{
-            flex-direction: column;
-            align-items: center;
-        }
-    }
-
-    @media screen and (max-width:925px) {
-        .unidades{
-            flex-direction: column;
-            align-items: center;
-        }
-    }
-
-    @media screen and (max-width:925px) {
-        .despacho{
-            flex-direction: column;
-            align-items: center;
-        }
-    }
-
-/* CONTACTO */
-
-    @media screen and (max-width:1050px) {
-        .break{
-            flex-direction: column;
-            align-items: center;
-        }
-    }
-
-    @media screen and (max-width:950px) {
-        .footimagenes{
-            flex-direction: column;
-            align-items: center;
-        }
-    }
-
-/* cobertura */
-/*
-    @media screen and (max-width:1120px) {
-        .img-2{
-            flex-direction: column;
-            align-content: center;
-        }
-    }*/
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px; }
+
+h5 {
+  text-align: center;
+  font-size: 20px; }
