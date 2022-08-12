@@ -31,3 +31,100 @@
             transform: rotateY(180deg);
         }
     }
+
+    /*--- Media Qries ---*/
+
+    /* -- INDEX -- */
+
+    @media screen and (max-width:1050px) {
+        .imagenes{
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+
+    @media screen and (max-width:1050px) {
+        .novedades{
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+
+        /* iconos redes */
+
+    @media screen and (max-width:1050px) {
+            .rede{
+                justify-content: center;
+            }
+        }
+
+    /* -- Servicios -- */
+
+    @media screen and (max-width:820px) {
+        .cargando{
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+    /* -- Unidades -- */
+
+    @media screen and (max-width:855px) {
+        .carga{
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+
+    @media screen and (max-width:990px) {
+        .primero{
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+
+    @media screen and (max-width:990px) {
+        .utilitarias{
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+
+    @media screen and (max-width:990px) {
+        .unidades{
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+
+    @media screen and (max-width:990px) {
+        .despacho{
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+
+    /* -- Contacto -- */
+
+    @media screen and (max-width:1050px) {
+        .break{
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+
+    @media screen and (max-width:950px) {
+        .footimagenes{
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+
+    /* -- Cobertura -- */
+
+    @media screen and (max-width:1000px) {
+        .row{
+            flex-direction: column;
+            align-items: center;
+        }
+    }

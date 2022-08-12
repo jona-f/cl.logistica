@@ -1,3 +1,5 @@
+/* --- INDEX --- */
+
 .carousel-inner{
     padding: 10px;
 }
@@ -33,5 +35,162 @@
         width: 600px;
         height: 600px;
         margin: 15px;
+    }
+}
+
+/* --- Servicios --- */
+
+.titservicios{
+    text-align: center;
+    h1{
+        font-family: 'Times New Roman', Times, serif;
+        font-size:50px;
+        color: skyblue;
+    }
+}
+
+.cargando {
+    display: flex;
+    justify-content: center;
+    img{
+        width: 700px;
+        border: solid 3px skyblue;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+.rounded{
+    border: solid 3px skyblue;
+    margin: 5px;
+}
+
+/* --- Unidades --- */
+
+.carga {
+    display: flex;
+    justify-content: center;
+    img{
+        width: 800px;
+        border: solid 3px skyblue;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+.primero {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.unidad{
+    img{
+        width: 350px;
+        height: 100%;
+        border: solid 3px skyblue;
+        margin: 5px;
+    }
+}
+
+.unidades{
+    img{
+        width: 350px;
+        height: 100%;
+        border: solid 3px skyblue;
+        margin: 5px;
+    }
+}
+
+.despacho {
+    display: flex;
+    justify-content: center;
+    img{
+        width: 600px;
+        height: 100%;
+        border: solid 3px skyblue;
+        margin: 5px;
+    }
+}
+
+.utilitarias{
+    ul{
+        text-align: center;
+        li{
+            font-family: 'Times New Roman', Times, serif;
+            font-size:25px;
+            color: skyblue;
+        }
+    }
+}
+
+/* --- Contacto --- */ 
+
+.break {
+    display: flex;
+    justify-content: center;
+    img{
+        width: 800px;
+        border: solid 3px skyblue;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+.redes{
+    display: flex;
+    justify-content: center;
+    a{
+        img{
+            width: 130px;
+            height: 130px;
+            padding: 30px;
+            transition: 2s;
+            &:hover{
+                transform: scale(1.8);
+            }
+        }
+    }
+}
+
+/* --- Cobertura --- */ 
+
+.zonas{
+    justify-content: center;
+    img{
+        width: 800px;
+        height: 1350px;
+        border: solid 3px skyblue;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+
+
+.muchacho{
+    img{
+        width: 100%;
+        height: 100%;
+        border: solid 3px skyblue;
+        margin: 5px;
+    }
+}
+
+.muchacha{
+    img{
+        width: 100%;
+        height: 100%;
+        border: solid 3px skyblue;
+        margin: 5px;
+    }
+}
+
+.llegamos{
+    p{
+        font-family: 'Times New Roman', Times, serif;
+        font-size:40px;
+        color: skyblue;
+        margin-top: 50%;
     }
 }
