@@ -1,3 +1,4 @@
+@import "../base/mixins";
 *{
     padding: 0%;
     margin: 0%;
@@ -5,22 +6,25 @@
 }
 
 /* --- Icn Redes ---*/
+
+/* --- MIXIN --- */
 .rede{
-    display: flex;
-    flex-direction: row;
-    margin-left: 20px;
-    transition: 2s;
-    &:hover{
-        transform: scale(1.5);
+    @include flex (flex, justify);
+}
+
+.rede{
+    a{
+        img{
+        width: 50px;
+        height: 50px;
+        padding: 5px;
+        transition: 2s;
+        &:hover{
+            transform: scale(1.8);
+                }
+            }
     }
 }
-.rede{
-    img{
-            height: 50px;
-            width: 50px;
-            padding: 5px;
-        }
-    }
 
     /* ---LOGO --- */
 .logo{    width: 150px;

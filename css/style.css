@@ -4,18 +4,18 @@
   box-sizing: border-box; }
 
 /* --- Icn Redes ---*/
+/* --- MIXIN --- */
 .rede {
   display: flex;
-  flex-direction: row;
-  margin-left: 20px;
-  transition: 2s; }
-  .rede:hover {
-    transform: scale(1.5); }
+  justify-content: justify; }
 
-.rede img {
-  height: 50px;
+.rede a img {
   width: 50px;
-  padding: 5px; }
+  height: 50px;
+  padding: 5px;
+  transition: 2s; }
+  .rede a img:hover {
+    transform: scale(1.8); }
 
 /* ---LOGO --- */
 .logo {

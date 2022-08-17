@@ -1,0 +1,12 @@
+agregue un mixin en los iconos de redes, lo encontramos en: _generales.scss
+agregue un mapa en los titulos de cada pagina, lo encontramos en: _header.scss
+
+las keywords que agregue son:  Envios, Entrega, Encomiendas, CABA, GBA, Rosario, Logistica, eCommer, Retiros, Mercaderia, Rapido, Simple, Seguro, Low Cost, calidad, eficiencia, profesionalismo, flexibilidad
+
+agregue los meta OG. type,title,url,image y description en cada pagina
+
+y borre todo codigo que estaba comentado.
+
+/* -------------
+mi duda es si tengo que preparar archivos SCSS por cada pagina y no comentar cada pagina como hice en el _main.scss
+------------ */

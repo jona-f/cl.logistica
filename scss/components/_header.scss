@@ -1,9 +1,11 @@
+@import "../base/maps";
+
 .titunidades{
     text-align: center;
     h1{
         font-family: 'Times New Roman', Times, serif;
         font-size:50px;
-        color: skyblue;
+        color: map-get($h1 , color );
     }
 }
 
@@ -12,13 +14,14 @@
     h1{
         font-family: 'Times New Roman', Times, serif;
         font-size:50px;
-        color: skyblue;
+        color: map-get($h1 , color );
     }
 }
 
 .titcobertura {
     font-family: 'Times New Roman', Times, serif;
     font-size:50px;
-    color: skyblue;
+    color: map-get($h1 , color );
     text-align: center;
 }
+
