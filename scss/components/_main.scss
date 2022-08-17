@@ -65,6 +65,15 @@
     margin: 5px;
 }
 
+.card-body{
+    p{
+        font-family: 'Times New Roman', Times, serif;
+        font-size:25px;
+        color: skyblue;
+        text-align: center;
+    }
+}
+
 /* --- Unidades --- */
 
 .carga {
@@ -158,8 +167,8 @@
 .zonas{
     justify-content: center;
     img{
-        width: 800px;
-        height: 1350px;
+        width: 980px;
+        height: 1080px;
         border: solid 3px skyblue;
         margin-top: 20px;
         margin-bottom: 20px;
