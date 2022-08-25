@@ -224,7 +224,8 @@
   display: flex;
   justify-content: center; }
   .break img {
-    width: 800px;
+    width: 100%;
+    max-width: 800px;
     border: solid 3px black;
     border-radius: 2em;
     margin-top: 20px;
@@ -240,6 +241,19 @@
     transition: 2s; }
     .redes a img:hover {
       transform: scale(1.8); }
+
+.mapa2 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 500px; }
+
+.form-floating {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  padding: 10px; }
 
 /* --- Cobertura --- */
 .zonas {
